@@ -1,5 +1,4 @@
 function generateEngineers(engineerArr) {
-    console.log(engineerArr);
     if (!engineerArr) {
         return '';
     }
@@ -56,7 +55,6 @@ function generateInterns(internArr) {
 };
 
 module.exports = (teamObj) => {
-    console.log(teamObj);
     const { managerObj, engineerObj, internObj } = teamObj;
 
     return `
