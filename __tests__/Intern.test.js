@@ -13,7 +13,7 @@ test('creates an Intern Object', () => {
 
     expect(intern.getName()).toEqual('Jacob');
     expect(intern.getId()).toBe(13579);
-    expect(intern.getEmail()).toBe('jacobOdd137@test.com');
+    expect(intern.getEmail()).toBe('mailto:jacobOdd137@test.com');
     expect(intern.getRole()).toBe('Intern');
     expect(intern.getSchool()).toBe('Vanderbilt');
 

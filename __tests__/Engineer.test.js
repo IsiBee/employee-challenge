@@ -12,7 +12,7 @@ test('creates a Engineer Object', () => {
 
     expect(engineer.getName()).toBe('Julie');
     expect(engineer.getId()).toBe(24680);
-    expect(engineer.getEmail()).toBe('julieann246@test.com');
+    expect(engineer.getEmail()).toBe('mailto:julieann246@test.com');
     expect(engineer.getRole()).toBe('Engineer');
-    expect(engineer.getGithub()).toBe('github.com/' + engineer.github);
+    expect(engineer.getGithub()).toBe('https://github.com/julieA');
 });
